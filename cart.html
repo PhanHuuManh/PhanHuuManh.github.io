@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assest/css/base.css">
+    <link rel="stylesheet" href="assest/css/main.css">
+    <link rel="stylesheet" href="assest/css/cart.css">
+    <link rel="stylesheet" href="assest/css/product.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./assest/fonts/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="grid">
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-qr  header__navbar-item--sparate">
+                        Vào cửa hàng trên ứng dụng
+                        <!-- HEADER QR CODE -->
+                        <div class="header__qr">
+                            <img src="./assest/img/qr_code.png" alt="QR code" class="header__qr-img">
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link">
+                                    <img src="./assest/img/google_play.png" alt="GG play" class="header__qr-download-img">
+                                </a>
+                                <a href="" class="header__qr-link">
+                                    <img src="./assest/img/google_appstore.png" alt=" GG APPSTORE" class="header__qr-download-img">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        <span class="header__navbar-title--no-pointer">Kết nối</span>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-notify">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon far fa-bell"></i>
+                            Thông báo
+                        </a>
+                        <div class="header__notify">
+                            <header class="header__notify-header">
+                                <h3>Thông báo mới nhất</h3>
+                            </header>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item header__notify-item--viewded">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/432b8d98e98460fc9f1d3a04d1818f6f" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">ROG G1531 GTX</span>
+                                            <span class="header__notify-descriotion">Là sản phẩm khá phổ biến trên thị trường hiện</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/09c2f034008754ef305ad3c4d16d8b3c" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Apple MacBook Pro (2020) M1 Chip, 13 inch, 8GB, 256GB SSD</span>
+                                            <span class="header__notify-descriotion">Mô tả laptop chính hãng</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/a687bac924ed528532155bf053c13a9d" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Card màng hình cỏ GT730 2gb DR5, GT730 2gb ,GT630 ,GTX750Ti ,GT420 card màng hình RX570 4gb R7-240</span>
+                                            <span class="header__notify-descriotion">Mô tả laptop chính hãng</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/2ea98aa48adafa0eb1bb889b357da0d1" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Máy Tính Apple Macbook Air 13 inch 2020 Core i3 256GB 8GB RAM</span>
+                                            <span class="header__notify-descriotion">Ở đâu rẻ hơn, Shopee hoàn tiền</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/432b8d98e98460fc9f1d3a04d1818f6f" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">ROG G1531</span>
+                                            <span class="header__notify-descriotion"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/432b8d98e98460fc9f1d3a04d1818f6f" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">ROG G1531</span>
+                                            <span class="header__notify-descriotion"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="header__notify-footer">
+                                <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="help.html" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fas fa-question-circle"></i>
+                            Trợ giúp
+                        </a>
+                    </li>
+                    <!-- <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    <li class="header__navbar-item header__navbar-item--strong">Đăng ký</li> -->
+                    <li class="header__navbar-item header__navbar-user">
+                        <img src="./assest/img/anh_user.jpg" alt="" class="header__navbar-user-img">
+                        <span class="header__navbar-user-name">Hữu Mạnh</span>
+                        <ul class="header__navbar-user-menu">
+                            <li class="header__navbar-user-item">
+                                <a href="">Tài khoản </a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Thành viên</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đơn mua</a>
+                            </li>
+                            <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                <a href="">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- header with-search -->
+            <div class="header-with-search">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./assest/img/logo_Mxi2.PNG" alt="" class="header__logo-img">
+                    </a>
+                </div>
+                <div class="header__search">
+                    <div class="header__search-input-wrap">
+                        <input type="text" placeholder="Nhập để tìm kiếm" class="header__search-input">
+                        <!-- search trong the header -->
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">Máy tính</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Trà sữa</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Giày</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__search-select">
+                        <span class="header__search-select-label">Trong Shop</span>
+                        <i class="header__search-select-icon fas fa-chevron-down"></i>
+
+                        <ul class="header__search-option">
+                            <li class="header__search-option-item header__search-option-item--active">
+                                <span>Trong Shop</span>
+                                <i class="fas fa-check"></i>
+                            </li>
+                            <li class="header__search-option-item ">
+                                <span>Ngoài Shop</span>
+                                <i class="fas fa-check"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fas fa-search"></i>
+                    </button>
+                </div>
+                <!-- cart -->
+                <div class="header__cart">
+                    <div class="header-cart-wrap">
+                        <i class="header__cart-icon fas fa-cart-arrow-down"></i>
+                        <span class="header-cart-notice">3</span>
+
+                        <!-- khong co san pham: header__cart-list--no-cart -->
+                        <div class="header__cart-list ">
+                            <img src="./assest/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                            <span class="header__cart-list-no-cart-msg">
+                                Chưa có sản phẩm
+                            </span>
+
+                            <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                            <ul class="header__cart-list-item">
+                                <!-- card -->
+                                <li class="header__cart-item">
+                                    <img src="https://cf.shopee.vn/file/696c5cfa7db104824b86c2e79ce63e57" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Laptop Microsoft surfface Pro 6</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">1500$</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Sản phẩm tốt
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="header__cart-item">
+                                    <img src="https://cf.shopee.vn/file/3518acec29babfb9c557c64a7a51d2fc" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Laptop DELL Inspiron 5406</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">2500$</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Sản phẩm tốt
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="header__cart-item">
+                                    <img src="https://cf.shopee.vn/file/7366eaa4ded68c65920b6e5b6d15492d" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Laptop Microsoft Surface Pro 7</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">1100$</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">3</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Sản phẩm tốt
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="cart.html" class="btn btn--primary header__cart-view-cart">Xem giỏ hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <div class="app__cart app__cart-maunen">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-12">
+                    <div class="cart__content">
+                        <div class="cart__dong1">
+                            <i class="cart__dong1-icon fas fa-caravan"></i>
+                            <span class="cart__font-dong1">
+                                Nhấn vào mục Mã giảm giá ở cuối trang để hưởng miễn phí vận chuyển bạn nhé!
+                            </span>
+                        </div>
+                        <div class="cart__dong2">
+                            <div class="cart__dong2-left">
+                                <div class="cart__dong2-left-1"></div>
+                                <span class="cart__dong2-left-2">Sản Phẩm</span>
+                            </div>
+                            <div class="cart__dong2-right">
+                                <span class="cart__dong2-right-1">Đơn giá</span>
+                                <span class="cart__dong2-right-1">Số lượng</span>
+                                <span class="cart__dong2-right-1">Số tiền</span>
+                                <span class="cart__dong2-right-1">Thao tác</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart__dong3">
+                        <div class=" cart__dong3-sua"></div>
+                        <span class="product-font-small car__dong3-small">Yêu thích</span>
+                        <span class="cart__dong3-left">Mac&More(Apple Store)</span>
+                    </div>
+
+                    <div class="cart__dong4"></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">ShopMxi</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Giới thiệu</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="Gioithieu.html" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4 footer--color-duoi">
+                    <h3 class="footer__heading">Theo dõi</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                            <i class="footer-item__icon fab fa-facebook"></i>    
+                            Facebook</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                            <i class="footer-item__icon fab fa-instagram-square"></i>    
+                            Instargram</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                            <i class="footer-item__icon fab fa-linkedin"></i>    
+                            Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Danh mục</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">ShopMxi</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Vào cửa hàng trên ứng ụng</h3>
+                    <div class="footer__download">
+                        <img src="/assest/img/qr_code.png" alt="Download qr" class="footer__download-qr">
+                        <div class="footer__download-apps">
+                            <a href="" class="footer__download-app-link">
+                                <img src="/assest/img/google_play.png" alt="Google_play" class="footer__download-app-img"> 
+                            </a>
+                            <a href="" class="footer__download-app-link">
+                                <img src="/assest/img/google_appstore.png" alt="App" class="footer__download-app-img"> 
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="grid">
+                <p class="footer__text">© 2021 - Bản quyền thuộc về Công ty TNHH ShopMxI</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- end footer -->
+</body>
+</html>

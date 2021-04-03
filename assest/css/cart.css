@@ -1,0 +1,70 @@
+.app__cart{
+    padding: 20px 0 20px 20px;
+}
+.cart__dong1-icon{
+    font-size: 2.4rem;
+}
+.app__cart-maunen{
+    background-color: #f5f5f5;
+}
+.cart__font-dong1{
+    font-size: 2.6rem;
+    margin-left: 16px;
+    font-weight: 350;
+}
+
+.cart__dong1{
+    padding: 20px 0 20px 20px;
+    border: 1px solid #f4eacc;
+    background-color: #fffefb;
+}
+.cart__dong2-left{
+    display: flex;
+    align-items: center;
+}
+
+.cart__dong2{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.cart__dong2-right-1{
+    font-size: 1.6rem;
+    margin-right: 200px;
+}
+
+.cart__dong2-left-1{
+    border: 1px solid #ccc;
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+}
+.cart__dong2-left-2{
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+.cart__dong3{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #fff;
+}
+.cart__dong3-sua{
+    
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    width: 18px;
+    height: 18px;
+}
+.car__dong3-small{
+    margin-left: 20px;
+    opacity: 0.9;
+}
+.cart__dong3-left{
+    font-size: 1.6rem;
+    margin-left: 20px;
+}

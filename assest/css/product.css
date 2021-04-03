@@ -1,0 +1,552 @@
+
+/* content */
+.app_product{
+    margin-bottom: 30px;
+}
+.product__content-img{
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.product__content-tong{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product__content-left{
+    display: flex;
+    align-items: center;
+}
+
+.product__content-word{
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+
+.product__content--icons{
+    font-size: 2.5rem;
+    margin-left: 4px;
+
+    
+}
+
+.product__content--icon-right{
+    font-size: 2.5rem;
+    margin-right: 5px;
+    color: red;
+}
+
+.produtc__content-font{
+    color: var(--text-color);
+    font-size: 2.5rem;
+}
+
+.giam{
+    margin-top: 20px;
+}
+
+.chudong1{
+    display: flex;
+    align-items: center;
+}
+
+.product-font-small{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--white--color);
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    padding: 0 2px;
+    
+}
+
+.product-font-big{
+    font-size: 3rem;
+    line-height: 3rem;
+    display: block;
+}
+
+.chudong2{
+    display: flex;
+    margin-top: 26px;
+}
+.chudong2-1{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    opacity: 0.9;
+    position: relative;
+}
+
+.chudong2-1-gach::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 16px;
+    right: -8px;
+    background-color: red;
+}
+
+.chudong2-2{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-left: 20px;
+    opacity: 0.9;
+}
+
+.giatiendong3{
+    display: flex;
+    margin-top: 18px;
+    color: var(--black--color);
+    background-color: #f5f5f5;
+    padding: 18px 0 18px 21px;
+    align-items: center;
+}
+.giamgia{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.giasp{
+    margin-left: 13px;
+    font-size: 2.6rem;
+    color: var(--primary-color);
+}
+
+.ptgiamgia{
+    margin-left: 18px;
+    font-size: 1.4rem;
+    background-color: var(--primary-color);
+    color: var(--white--color);
+    border-radius: 2px;
+    line-height: 1.2rem;
+    padding: 3px 3px;
+}
+
+.tragop{
+    font-size: 1.8rem;
+    color: var(--text-color);
+
+}
+
+.dong4{
+    display: flex;
+    margin-top: 23px;
+}
+
+.product-font-right{
+    margin-left: 30px;
+}
+
+.phitragop{
+    margin-left: 23px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.xemthem{
+    display: flex;
+    align-items: center;
+}
+
+.dong4__xemthem{
+    margin-left: 22px;
+    color: #0e0ed3;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.dong4__xemthem--icon{
+    margin-left: 5px;
+    color: #0e0ed3;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+.dong5{
+    display: flex;
+    margin-top: 20px;
+
+}
+.dong5__vanchuyen{
+    
+    font-size: 1.8rem;
+    color: #666;
+
+}
+.dong5__mienphivanchuyen{
+    
+    margin-left: 46px;
+}
+
+.dong5__icon{
+    font-size: 1.6rem;
+    color:var(--primary-color);
+}
+
+.dong5__freevanchuyen{
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.dong6{
+    margin-top: 15px;
+    margin-left: 126px;
+    display: flex;
+    align-items: center;
+}
+
+.dong6__icon{
+    font-size: 1.6rem;
+    color:#0e0ed3;
+}
+
+.dong6__vanchuyenden{
+    margin-left: 8px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.dong6__diadiem{
+    margin-left: 20px;
+    font-size: 1.7rem;
+    color: var(--black--color);
+    font-weight: 400;
+    
+}
+.dong6__bieutuong{
+    margin-left: 5px;
+    color: #666;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.dong7{
+    display: flex;
+    margin-top: 44px;
+    align-items: center;
+}
+
+.dong7__chu{
+    font-size: 1.8rem;
+    color: #666;
+    font-weight: 400;
+
+}
+.dong7__dautru{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    display: flex;
+    
+}
+.dong7__dautrutrai{
+    font-size: 3.4rem;
+    margin: auto;
+}
+
+.dong7__soluong{
+    margin-left: 2px;
+    width: 50px;
+    height: 32px;
+    border: 1px solid #ccc;
+    display: flex;
+    
+}
+.dong7__chusomot{
+    font-size: 2rem;
+    margin: auto;
+}
+.dong7__margin{
+    margin-left: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.dong7__daucong{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    display: flex;
+    margin-left: 2px;
+}
+.dong7__dautruphai{
+    font-size: 3rem;
+    margin: auto;
+    font-weight: 300;
+}
+.dong7__sanphamcosan{
+    margin-left: 16px;
+    font-size: 1.8rem;
+    color: #666;
+    font-weight: 400;
+    font-weight: 200;
+}
+
+.dong8{
+    display: flex;
+    margin-top: 16px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #e6dddd;
+}
+
+.dong8_giohang{
+    background-color: rgb(238, 227, 217);
+    border-radius: 2px;
+    width: 183px;
+    height: 48px;
+    border: 2px solid var(--primary-color);
+    display: flex;
+    cursor: pointer;
+}
+.dong8__cangiua{
+    margin: auto;
+    
+    
+}
+
+.dong8__giohangthem{
+    font-size: 1.8rem;
+    margin-right: 12px;
+    color: var(--primary-color);
+}
+
+.dong8__themspgiohang{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    
+
+}
+.dong8__muahanh{
+    background-color: var(--primary-color);
+    margin-left: 18px;
+    width: 180px;
+    height: 48px;
+    display: flex;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.dong8__muangay{
+    color: var(--white--color);
+    margin: auto;
+    font-size: 1.6rem;
+
+}
+
+.dong9{
+    margin-top: 24px;
+    display: flex;
+}
+
+.dong9__left{
+    font-size: 1.8rem;
+    color: var(--black--color);
+
+}
+
+.dong9__right{
+    margin-left: 21px;
+    font-size: 1.8rem;
+    color: rgb(143, 135, 135);
+    font-weight: 300;
+}
+
+.app_product-hai{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.producthai__chitiet{
+    background-color: #f5f5f5;
+    padding: 15px 0 15px 16px;
+}
+
+.produchai__sanpham{
+    font-size: 3rem;
+    color: var(--black--color);
+}
+.product-hai__row{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.khoangcach{
+    padding-left: 30px;
+}
+
+
+
+/* ====================== */
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 12px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    min-width: 120px;
+    transition: opacity 0.2s;
+}
+
+.btn--size-s{
+    padding: 8px 32px;
+}
+
+.btn--size-l{
+    padding: 14px 56px;
+}
+
+
+
+.btn:hover{
+    opacity:0.8;
+}
+
+.btn + .btn{
+    margin-left: 16px;
+}
+
+.btn--success {
+    background-color: #71be34;
+}
+
+.btn--warn {
+    background-color: #ffb702;
+}
+
+.btn--danger {
+    background-color: #ff623d;
+}
+
+.btn--disabled{
+    opacity: 0.5 !important;
+    cursor: default;
+}
+
+
+/* ============Toast message=========== */
+#toast{
+    position: fixed;
+    top: 32px;
+    right: 32px;
+    z-index: 9999999;
+}
+
+.toast{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 20px 0;
+    min-width: 500px;
+    max-width: 650px;
+    border-left: 4px solid;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+    transition: all linear 0.3s;
+}
+
+@keyframes slideInLeft{
+    from{
+        opacity: 0;
+        transform: translateX(calc(100% + 32px)); 
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+@keyframes fadeOut{
+    to{
+        opacity: 0;
+    }
+}
+
+.toast--success{
+    border-color: #47d864 ;
+}
+
+.toast--success .toast__icon{
+    color: #47d864;
+}
+
+.toast--info{
+    border-color: #2f86eb ;
+}
+
+.toast--info .toast__icon{
+    color: #2f86eb;
+}
+
+.toast--warning{
+    border-color:  #ffc021;
+}
+
+.toast--warning .toast__icon{
+    color: #ffc021;
+}
+
+.toast--error{
+    border-color: #ff623d ;
+}
+
+.toast--error .toast__icon{
+    color: #ff623d;
+}
+
+
+.toast + .toast{
+    margin-top: 24px ;
+}
+
+.toast__icon{
+    font-size: 24px;
+}
+
+.toast__icon,
+.toast__close{
+    padding: 0% 16px;
+}
+
+.toast__body{
+    flex-grow: 1;
+}
+
+.toast__title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.toast__msg{
+    font-size: 14px;
+    margin-top: 6px ;
+    color: #888;
+    line-height: 1.5;
+}
+.toast__close:hover{
+    opacity: 0.8;
+}
+
+.toast__close{
+    font-size:20px;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+
+
+
+
+
+

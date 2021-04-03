@@ -1,0 +1,47 @@
+.milk__tea{
+    
+}
+.milk__tea__container{
+    margin-bottom: 40px;
+}
+
+.milk__tea-img{
+    text-align: center;
+}
+.milk__tea-content{
+    background-color: #237555;
+}
+.milk__tea-font{
+    margin-left: 266px;
+}
+
+.milk__tea-font_heading{
+    color: var(--primary-color);
+    font-size: 5rem;
+    padding-bottom: 30px;
+    
+}
+.milke__chinh{
+    margin-left: 20px;
+}
+
+.milk__tea-img-img{
+    width: 100%;
+}
+.milk__tea-can-bottom{
+    padding-bottom: 30px;
+}
+
+.milk__tea-muangay{
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    display: flex;
+    border: 5px solid var(--primary-color);
+    width: 80px;
+    height: 40px;
+    margin-left: 240px;
+}
+.milk__tea-muasanpham{
+    margin: auto;
+    color: var(--white--color);
+}
